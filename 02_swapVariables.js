@@ -18,6 +18,7 @@ console.log("------------------SECOND TASK------------------");
 
 var num1 = 100;
 var num2 = 200;
+
 var num3 = 300;
 
 console.log("**********Before swaping***************");
