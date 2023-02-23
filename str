@@ -1,0 +1,19 @@
+
+
+
+
+
+
+function string (val1){
+
+    console.log("The length of string is :", val1.length);
+var vlength = val1.length;
+
+console.log(`the cube of string length is ${vlength*3}`);
+
+
+
+
+}
+
+string("i love javascript");
