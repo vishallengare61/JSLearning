@@ -1,6 +1,6 @@
 
 
-console.log("-----------------------find the greater number among two numbers------------------------------");
+console.log("-----------------------1 find the greater number among two numbers------------------------------");
 
 
 function greaterNumber( num1 , num2){
@@ -11,6 +11,23 @@ function greaterNumber( num1 , num2){
 
 greaterNumber(10 , -10);
 greaterNumber(800 , 899);
+
+
+console.log("----use of if-else statment----");
+
+function greaterNumber2(num1 , num2) {
+if (num1 > num2) {
+    var result = num1 > num2;
+    console.log(`The greater number is ${num1}`);
+} else {
+    console.log(`The greater number is ${num2}`);
+       
+}
+}
+greaterNumber2(10 ,-10);
+greaterNumber2(800 ,899);
+
+
 
 console.log("-----------------------2 find the even and odd number------------------------------");
 
