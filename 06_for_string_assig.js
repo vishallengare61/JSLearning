@@ -1,8 +1,5 @@
 
 
-
-
-
 var totalNumberOfVowels = function(str){
         var count = "";
         for (let index = 0; index <=str.length-1; index++) {
