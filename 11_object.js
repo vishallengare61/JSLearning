@@ -25,3 +25,5 @@ console.log(student["lastName"]);
 student.collageName="SMS";
 
 console.log(student.collageName);
+
+student.city= "mumbai";
