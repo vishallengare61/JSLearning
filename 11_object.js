@@ -7,9 +7,21 @@ const student = {
     collageName: "VIMS",
     rollNumber: 022,
     age: 22,
-    isWorking: false
+    isWorking: false,
+    address : {
+        street:bandgarwadi,
+        PIN: "413306",
+        city: sangola
+    },
+    school: ZPPschool,
+    freinds: [vishal, rahul, munna]
 };
 
+student.marks = {
+    math: 80,
+    physics: 60,
+    drawing: 70
+}
 console.log(student);
 
 console.log(typeof (student));
