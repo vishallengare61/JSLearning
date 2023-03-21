@@ -7,6 +7,19 @@ function doAssignment(callback){
 function copyAssignment(){
     // Ajinkya
     console.log("Thank you Ajju, let me copy assignments!");
-    console.log("Ohh finally coped all assignment");
+    console.log("Ohh finally copied all assignment");
 }
 doAssignment(copyAssignment);
+
+
+
+function vishal(callback){
+    console.log("Complete the asssessment");
+    callback();
+}
+
+function amol(){
+    console.log("copy the assessment");
+}
+
+vishal(amol);
