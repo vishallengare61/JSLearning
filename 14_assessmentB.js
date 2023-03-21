@@ -27,49 +27,49 @@ array_employees.forEach(element => {
 
 
 
-// console.log(array_employees);
-// console.log("-----------------------employee who is working in TCS with his name-----------------");
-// for (const iterator of array_employees) {
-//     if (iterator.emp_company=="TCS") {
-//      console.log(`the employee is ${iterator.emp_name} , and the company is ${iterator.emp_company} `);
-//     }
-// }
-// console.log("---------------employee who working in finance with his name-----------------------");
+console.log(array_employees);
+console.log("-----------------------employee who is working in TCS with his name-----------------");
+for (const iterator of array_employees) {
+    if (iterator.emp_company=="TCS") {
+     console.log(`the employee is ${iterator.emp_name} , and the company is ${iterator.emp_company} `);
+    }
+}
+console.log("---------------employee who working in finance with his name-----------------------");
 
-// for (const iterator of array_employees) {
-//     if (iterator.emp_dept=="Finance") {
-//         console.log(`the employee is ${iterator.emp_name} and the department is ${iterator.emp_dept}`);
-//     }
-// }
-// console.log("------------------employee whos name starts with 'r'-------------------------------------");
+for (const iterator of array_employees) {
+    if (iterator.emp_dept=="Finance") {
+        console.log(`the employee is ${iterator.emp_name} and the department is ${iterator.emp_dept}`);
+    }
+}
+console.log("------------------employee whos name starts with 'r'-------------------------------------");
 
-// for (const iterator of array_employees) {
-//     if (iterator.emp_name.startsWith("r")) {
-//         console.log(iterator);
-//     }
-// }
-// console.log("------------------employee whos salary is greater than 70000---------------------------------");
+for (const iterator of array_employees) {
+    if (iterator.emp_name.startsWith("r")) {
+        console.log(iterator);
+    }
+}
+console.log("------------------employee whos salary is greater than 70000---------------------------------");
 
-// for (const iterator of array_employees) {
-//     if (iterator.emp_salary>70000) {
-//         console.log(iterator);
-//     }
-// }
-// console.log("--------------employee whos salary is 50000 and from IT departmanet-----------------------------");
+for (const iterator of array_employees) {
+    if (iterator.emp_salary>70000) {
+        console.log(iterator);
+    }
+}
+console.log("--------------employee whos salary is 50000 and from IT departmanet-----------------------------");
 
-// for (const iterator of array_employees) {
-//     if (iterator.emp_salary>=50000 && iterator.emp_dept=="IT") {
-//         console.log(iterator);
-//     } 
-// }
+for (const iterator of array_employees) {
+    if (iterator.emp_salary>=50000 && iterator.emp_dept=="IT") {
+        console.log(iterator);
+    } 
+}
 
-// console.log("-----------------employee who working in infosys-----------------------------------");
+console.log("-----------------employee who working in infosys-----------------------------------");
 
-// for (const iterator of array_employees) {
-//     if (iterator.emp_company=="infy") {
-//         console.log(iterator);
-//     }
-// }
+for (const iterator of array_employees) {
+    if (iterator.emp_company=="infy") {
+        console.log(iterator);
+    }
+}
 
 
 
