@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML and JAVASCRIPT are crusial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li >flexible</li>
+                <li >avilable</li>
+                <li >magical</li>
+            </ul>
+        </div>
+    </main>
+
+<script>
+    //your task is to select and store three DOM elements in the pre-defined variables mainHeading, secondAdvantage and advDiv.
+    const mainHeading = document.querySelector("h1");
+    console.log("======= h1 element store in mainheading ==========");
+    console.log(mainHeading.innerHTML);
+  
+    
+    const secondAdvanatage = document.querySelectorAll("li");
+    console.log("======= second li element store in secondAdvanatage ==========");
+    console.log(secondAdvanatage[1].innerHTML);
+
+
+
+    const advDiv = document.querySelector("#advantages");
+    console.log("======= div elememnt stores in advDiv ==========");
+    console.log(advDiv.innerHTML);
+</script>
+
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Excercise time</title>
+</head>
+
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML and JavaScript are crucial technologies</h1>
+            <p>The web would not work within them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        console.log(`==========h1 element ored in mainHeading======`);
+const mainHeading=document.querySelector("h1");
+console.log(mainHeading.innerHTML);
+console.log(`======second element of list stored in secondAdvantage======`);
+const secondAdvantage=document.querySelectorAll("li")
+console.log(secondAdvantage[1].innerHTML);
+
+console.log(`======div with id-advantages stored in advDiv=========`);
+const advDiv=document.querySelector("#advantages");
+console.log(advDiv.innerHTML);
+
+</script>
+
+</body>
+
+</html> -->

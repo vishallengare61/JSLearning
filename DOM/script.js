@@ -38,3 +38,14 @@ console.log("====== Remove Element =====");
 const elementDivProject = document.querySelector("#divProject");
 const elementProject = document.querySelector("#project");
 elementDivProject.removeChild(elementProject);
+
+
+console.log("========Change the color of h1 tag========");
+const changeColorH1 = document.querySelector("#profile");
+changeColorH1.style.color = "blue";
+
+console.log("========remove second li element========");
+
+const ulElement = document.querySelector("ul");
+const secondLiElemnt = document.querySelectorAll(".liItem");
+console.log(ulElement.removeChild(secondLiElemnt[1]));
