@@ -10,6 +10,7 @@ console.log(elementProfile.innerHTML);
 console.log("====== API getElementsByClassName() to select element class Name  =====");
 const elementLi =document.getElementsByClassName("liItem");
 console.log(elementLi[1].innerHTML);
+
 console.log("====== API querySelector() to select element by id  =====");
 const elementProfileByQuery = document.querySelector("#profile");
 console.log(elementProfileByQuery);
@@ -20,7 +21,6 @@ console.log(elementByQuery);
 
 console.log("====== API querySelectorAll() to select element by class  =====");
 const elementsByQuery = document.querySelectorAll(".liItem");
-console.log(elementsByQuery);
 elementsByQuery[3].innerHTML = "Oracle Database";
 console.log(elementsByQuery[3]);
 
@@ -39,13 +39,62 @@ const elementDivProject = document.querySelector("#divProject");
 const elementProject = document.querySelector("#project");
 elementDivProject.removeChild(elementProject);
 
+console.log("====== Adding Element =====");
+const elementDiv = document.querySelector("#divProject");
+const elementP = document.createElement("p");
+const elementText = document.createTextNode("Team Size - 7");
+elementP.appendChild(elementText);
+elementDiv.appendChild(elementP);
 
-console.log("========Change the color of h1 tag========");
-const changeColorH1 = document.querySelector("#profile");
-changeColorH1.style.color = "blue";
 
-console.log("========remove second li element========");
+const elementAddress = document.querySelector("#address");
+elementAddress.addEventListener("click", ()=> {
+    console.log("Listening click event.....");
+    // alert("You have clicked on address");
+    const inputValue = prompt("This is the title", "Default value");
+    console.log(inputValue);
 
-const ulElement = document.querySelector("ul");
-const secondLiElemnt = document.querySelectorAll(".liItem");
-console.log(ulElement.removeChild(secondLiElemnt[1]));
+});
+
+elementAddress.addEventListener("mouseover", () => {
+    console.log("Mouse over....");
+    elementAddress.style.color = "red";
+});
+
+
+function show(){
+    console.log("Click event.....");
+}
+
+const isEvenButton = document.querySelector("#isEvenButton");
+isEvenButton.addEventListener('click', () => {
+    const inputValue = prompt("Please enter number to check..", 0);
+    console.log(inputValue);
+    const result = inputValue%2==0 ? true : false;
+    if(result){
+        alert("Given Number is Even");
+    }else{
+        alert("Given number is Odd");
+    }
+} );
+
+
+let addHobbies = document.querySelector("#hobby");
+addHobbies.addEventListener('click', ()=>{
+let userValue = prompt("Please enter your hobbbies to add hoby section.", "Hobbies");
+console.log(userValue);
+});
+
+
+let isPrimeNumber = document.querySelector("#isPrime");
+isPrimeNumber.addEventListener('click',()=>{
+let userNumber = prompt("Please enter the number", 0);
+console.log(userNumber);
+if (userNumber%2==0) {
+    alert("Entered Number is prime");
+    console.log("Entered Number is prime");
+}else{
+    alert("Entered Number is not prime");
+    console.log("Entered Number is not prime");
+}
+} );
